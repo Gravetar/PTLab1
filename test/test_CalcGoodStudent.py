@@ -31,8 +31,8 @@ class TestCalcGoodStudent:
 
         return data, good_count
 
-    def test_init_calc_rating(self, input_data: tuple[DataType,
-                                                      GoodStudentType]) \
+    def test_init_calc_good_student(self, input_data: tuple[DataType,
+                                                            GoodStudentType]) \
             -> None:
         calc_goodstudent = CalcGoodStudent(input_data[0])
         assert input_data[0] == calc_goodstudent.data

@@ -6,7 +6,7 @@ import pytest
 GoodStudentType = int
 
 
-class TestCalcRating:
+class TestCalcGoodStudent:
 
     @pytest.fixture()
     def input_data(self) -> tuple[DataType, GoodStudentType]:

@@ -3,7 +3,6 @@ import argparse
 import sys
 
 from CalcGoodStudent import CalcGoodStudent
-from CalcRating import CalcRating
 from XMLDataReader import XMLDataReader
 
 

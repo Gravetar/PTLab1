@@ -27,9 +27,9 @@ class TestCalcRating:
                 ]
         }
 
-        rating_scores: GoodStudentType = 1
+        good_count: GoodStudentType = 1
 
-        return data, rating_scores
+        return data, good_count
 
     def test_init_calc_rating(self, input_data: tuple[DataType,
                                                       GoodStudentType]) \

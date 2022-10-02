@@ -23,7 +23,7 @@ def main():
     print("Students: ", students)
 
     rating = CalcGoodStudent(students).calc()
-    print("Rating: ", rating)
+    print("CountGoodStudents: ", rating)
 
 
 if __name__ == "__main__":
